@@ -9,3 +9,12 @@ es una plataforma líder de análisis estático de código que inspecciona autom
 
 3. MERCURIAL
 Herramienta de control de versiones distribuida, similar a Git, conocida por su gestión eficiente de proyectos grandes y su facilidad de uso.
+CAMBIO GIULIANO
+1. GitHub Actions
+Automatiza la integración y despliegue continuo (CI/CD). Sirve mejor para el ACS porque permite forzar el cumplimiento de las reglas automáticamente (ej. ejecutar pruebas obligatorias), bloqueando cualquier código que no cumpla con los estándares acordados antes de que se fusione al proyecto.
+
+2. Snyk
+Plataforma de seguridad enfocada en detectar vulnerabilidades en código propio, dependencias externas y contenedores. Sirve mejor para el ACS porque, a diferencia de SonarQube, analiza en tiempo real si las librerías de terceros que estás importando tienen fallos de seguridad o malware, blindando el software contra ataques.
+
+3. Bitbucket
+Servicio de alojamiento de repositorios basado en Git con integración nativa en Jira. Sirve mejor para el ACS porque ofrece una gestión de permisos, auditorías y flujos de aprobación de cambios mucho más estricta a nivel empresarial, garantizando que ninguna línea de código se apruebe sin los revisores estipulados en el acuerdo.
