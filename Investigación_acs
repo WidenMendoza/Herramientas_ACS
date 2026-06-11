@@ -9,3 +9,6 @@ Sistema de control de versiones centralizado. A diferencia de los sistemas distr
 
 3. MERCURIAL
 Herramienta de control de versiones distribuida, similar a Git, conocida por su gestión eficiente de proyectos grandes y su facilidad de uso.
+
+SELENIUM
+Herramienta clave para la automatización de pruebas de software en navegadores web. Permite ejecutar scripts para verificar la calidad del código.
